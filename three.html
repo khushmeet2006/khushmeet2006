@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management</title>
+</head>
+<body>
+  <h1>Student Management System</h1>
+
+  <!-- Form -->
+  <form id="studentForm">
+    <label>Student Name:</label>
+    <input type="text" id="name" required>
+    <br><br>
+
+    <label>Marks:</label>
+    <input type="number" id="marks" required>
+    <br><br>
+
+    <button type="button" onclick="addStudent()">ADD Student</button>
+  </form>
+
+  <hr>
+
+  <!-- Action buttons -->
+  <button onclick="showAllStudents()">Show All Students</button>
+  <button onclick="showPassedStudents()">Show Passed Students</button>
+  <button onclick="calculateAverage()">Calculate Average Marks</button>
+  <button onclick="findTopper()">Find Topper</button>
+
+  <hr>
+
+  <!-- Results section -->
+  <h2>Results</h2>
+  <div id="results"></div>
+
+  <!-- Link external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
