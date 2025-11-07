@@ -1,0 +1,12 @@
+#outer{
+   text-align: center;
+   text-size-adjust: 25px;
+}
+#inner{
+   text-align: left;
+   text-size-adjust: 10px;
+}
+#inner{
+   font-size: small;
+}
+ 
